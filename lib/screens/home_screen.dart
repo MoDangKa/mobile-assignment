@@ -90,9 +90,11 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          "Example",
-          style: TextStyle(color: Colors.black),
+        title: const Center(
+          child: Text(
+            "Example",
+            style: TextStyle(color: Colors.black),
+          ),
         ),
         backgroundColor: Colors.blue.shade300,
       ),
