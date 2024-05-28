@@ -68,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
       context: context,
       builder: (BuildContext context) {
         return FractionallySizedBox(
-          heightFactor: 0.5,
+          heightFactor: 1,
           child: ListView.builder(
             itemCount: filteredList.length,
             itemBuilder: (context, index) {
